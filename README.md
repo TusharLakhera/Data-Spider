@@ -65,3 +65,15 @@ Follow these step-by-step instructions to set up and run the Data Spider scraper
     <img width="1383" alt="fastAPI docs" src="https://github.com/TusharLakhera/Data-Spider/assets/23501469/a9fdab01-25ac-4f37-a3b3-73666ea70999">
     <img width="1369" alt="API results" src="https://github.com/TusharLakhera/Data-Spider/assets/23501469/1f90ff53-b392-47b7-ae61-5f720037b2a8">
 
+4. ***cached results can be checked by entering redis container using below commands***
+
+   ```bash
+    docker exec -it <container-id> sh
+    redis-cli
+   ```
+   
+   <img width="976" alt="redis-container" src="https://github.com/TusharLakhera/Data-Spider/assets/23501469/49a1f035-bb72-4e44-b47c-8523bf24e20a">
+
+
+   
+
